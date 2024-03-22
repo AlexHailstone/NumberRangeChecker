@@ -32,6 +32,9 @@ class RangeChecker:
     
         else:
             # if the given number doesn't match the prior checks, print out that it isn't within the range
-            print("It is not in the specified range.")
+            print("It is not in the specified range.")            
+
+        # Add a pause at the end, waiting for any input to proceed
+        input("Press Enter to exit...")
 
     inputRangeChecker()
